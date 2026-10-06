@@ -1,0 +1,24 @@
+# Python environments and caches
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+
+# Generated files and local conversion data
+backend/tmp/
+backend/tools/
+backend/.env
+backend/.env.*
+
+# Frontend build output
+frontend/.next/
+frontend/.next-*/
+frontend/out/
+frontend/build/
+frontend/node_modules/
+frontend/.env
+frontend/.env.*
+frontend/*.tsbuildinfo
